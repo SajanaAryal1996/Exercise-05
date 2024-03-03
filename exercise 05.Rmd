@@ -1,8 +1,8 @@
 ---
 title: "Exercise-05"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 date: "2024-02-27"
 ---
 
@@ -437,7 +437,7 @@ for (variable in c("height", "weight", "age", "zombies_killed", "years_of_educat
 
 ```
 
-Zombies killed and years of education exhibit a positive skew in their distributions, whereas height, weight, and age follow a normal distribution pattern. A potential approach to explore the data's distribution involves applying log transformation to the skewed variables and observing any alterations in the data patterns.
+**Zombies killed and years of education exhibit a positive skew in their distributions, whereas height, weight, and age follow a normal distribution pattern. A potential approach to explore the data's distribution involves applying log transformation to the skewed variables and observing any alterations in the data patterns.**
 
 ```{r}
 # Combine means from the first sample with the additional samples
